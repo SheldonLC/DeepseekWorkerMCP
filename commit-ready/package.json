@@ -1,0 +1,12 @@
+{
+  "name": "teamagent-deepseek-bootstrap",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "teamagent-deepseek-install": "./scripts/install-deepseek-mcp-extended.mjs"
+  },
+  "scripts": {
+    "install:deepseek": "node ./scripts/install-deepseek-mcp-extended.mjs",
+    "test:deepseek-install": "node --test ./tests/install-deepseek-mcp.test.mjs ./tests/install-deepseek-mcp-extended.test.mjs"
+  }
+}
